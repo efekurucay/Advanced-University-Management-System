@@ -1,41 +1,46 @@
-# Gelişmiş Üniversite Yönetim Sistemi
+# About
+This project was created as part of an assignment or coursework for CSE102 Computer Programming. As a first-year Computer Engineering student, I developed this project to enhance my skills in software development and algorithm design.
 
-Bu proje, basit bir üniversite yönetim sistemini simüle eder. Öğrenci kayıtlarını ve notlarını yönetmek için kullanılır.
+If you're reviewing this project, your feedback or suggestions would be greatly appreciated. Thank you!
 
-## Özellikler
+# Advanced University Management System
 
-- Öğrenci ekleme
-- Not girişi yapma
-- Öğrenci bilgilerini görüntüleme
-- Tüm öğrencileri listeleme
-- Otomatik not ortalaması hesaplama
-- Harf notu belirleme
+This project simulates a simple university management system. It is used to manage student records and grades.
 
-## Kullanım
+## Features
 
-Program çalıştırıldığında menüden istenen işlem seçilir:
+- Add student
+- Enter grades
+- View student information
+- List all students
+- Automatically calculate grade average
+- Determine letter grade
 
-1. Öğrenci Ekle: Yeni öğrenci kaydı oluşturur
-2. Not Gir: Var olan öğrenciye not ekler
-3. Öğrenci Bilgilerini Görüntüle: Tek bir öğrencinin detaylarını gösterir
-4. Tüm Öğrencileri Listele: Kayıtlı tüm öğrencileri listeler
-5. Çıkış: Programı sonlandırır
+## Usage
 
-## Teknik Detaylar
+When the program is run, the desired operation is selected from the menu:
 
-- Java 8 ile geliştirilmiştir
-- Maven kullanılarak derlenebilir
-- Konsoldan kullanıcı girişi alır
-- Her öğrenci için 5 ders notu tutulabilir
-- Notlar 0-100 arasında olmalıdır
+1. Add Student: Creates a new student record
+2. Enter Grade: Adds a grade to an existing student
+3. View Student Information: Shows the details of a single student
+4. List All Students: Lists all registered students
+5. Exit: Terminates the program
 
-## Derleme ve Çalıştırma
+## Technical Details
+
+- Developed with Java 8
+- Can be compiled using Maven
+- Takes user input from the console
+- Holds 5 course grades for each student
+- Grades must be between 0-100
+
+## Compile and Run
 
 ```bash
 mvn clean compile
 mvn exec:java -Dexec.mainClass="com.university.Main"
 ```
 
-## Yazar
+## Author
 
 Yahya Efe Kuruçay
